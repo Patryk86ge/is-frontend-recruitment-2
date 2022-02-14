@@ -1,0 +1,36 @@
+@import "./css/main.scss";
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-pulse infinite 2s ease-in;
+  max-height: 80px;
+  max-width: 100%;
+}
+
+.App-header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: #434343;
+}
+
+.App-title {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+.App-title strong {
+  font-weight: 400;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-pulse {
+  0% { transform: scale(1); }
+  60% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}

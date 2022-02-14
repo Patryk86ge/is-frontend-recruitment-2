@@ -1,0 +1,10 @@
+[include]
+
+[libs]
+flow-typed
+
+[options]
+esproposal.decorators=ignore
+module.name_mapper='.*\(.s?css\)' -> 'empty/object'
+suppress_type=$FlowIssue
+suppress_comment= \\(.\\|\n\\)*\\$FlowIssue
